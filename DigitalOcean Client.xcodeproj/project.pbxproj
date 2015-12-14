@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92646431BE325120044E982 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A92646421BE325120044E982 /* main.m */; };
+		A92646461BE325120044E982 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A92646451BE325120044E982 /* AppDelegate.m */; };
+		A92646491BE325120044E982 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92646481BE325120044E982 /* MasterViewController.m */; };
+		A926464C1BE325120044E982 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A926464B1BE325120044E982 /* DetailViewController.m */; };
+		A926464F1BE325120044E982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A926464D1BE325120044E982 /* Main.storyboard */; };
+		A92646511BE325120044E982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92646501BE325120044E982 /* Assets.xcassets */; };
+		A92646541BE325120044E982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92646521BE325120044E982 /* LaunchScreen.storyboard */; };
+		A926465F1BE325120044E982 /* DigitalOcean_ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A926465E1BE325120044E982 /* DigitalOcean_ClientTests.m */; };
+		A926466A1BE325120044E982 /* DigitalOcean_ClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A92646691BE325120044E982 /* DigitalOcean_ClientUITests.m */; };
+		A92AB38F1C11C76200583B84 /* AuthenticationWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A92AB38E1C11C76200583B84 /* AuthenticationWebView.m */; };
+		A96593881C0F64D600895FA1 /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96593871C0F64D600895FA1 /* AuthenticationViewController.m */; };
+		A981A99D1C0C37910006FD27 /* AccountAPIWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A981A99C1C0C37910006FD27 /* AccountAPIWrapper.m */; };
+		A981A9A31C0C45300006FD27 /* DebugUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A981A9A21C0C45300006FD27 /* DebugUtils.m */; };
+		A999924D1BEB42A10049E43C /* DODroplet.m in Sources */ = {isa = PBXBuildFile; fileRef = A999924C1BEB42A10049E43C /* DODroplet.m */; };
+		A99992531BEB4AA40049E43C /* DONetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = A99992521BEB4AA40049E43C /* DONetwork.m */; };
+		A99992561BEB4ACB0049E43C /* DORegion.m in Sources */ = {isa = PBXBuildFile; fileRef = A99992551BEB4ACB0049E43C /* DORegion.m */; };
+		A99992591BEB8BA30049E43C /* APIInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = A99992581BEB8BA30049E43C /* APIInvoker.m */; };
+		A9D3EA591C08859100D11389 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9D3EA581C08859100D11389 /* Data.plist */; };
+		A9FFEF321BF46C920089E58A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FFEF311BF46C920089E58A /* Constants.m */; };
+		A9FFEF351BF4719F0089E58A /* DropletAPIWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FFEF341BF4719F0089E58A /* DropletAPIWrapper.m */; };
+		A9FFEF381BF4730C0089E58A /* DOSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FFEF371BF4730C0089E58A /* DOSnapshot.m */; };
+		A9FFEF3B1BF473180089E58A /* DOBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FFEF3A1BF473180089E58A /* DOBackup.m */; };
+		A9FFEF4B1BFCB4310089E58A /* DODropletAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FFEF481BFCB4310089E58A /* DODropletAction.m */; };
+		A9FFEF4C1BFCB4310089E58A /* DOImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FFEF4A1BFCB4310089E58A /* DOImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A926465B1BE325120044E982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92646361BE325120044E982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A926463D1BE325120044E982;
+			remoteInfo = "DigitalOcean Client";
+		};
+		A92646661BE325120044E982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92646361BE325120044E982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A926463D1BE325120044E982;
+			remoteInfo = "DigitalOcean Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A926463E1BE325120044E982 /* DigitalOcean Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DigitalOcean Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92646421BE325120044E982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A92646441BE325120044E982 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A92646451BE325120044E982 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A92646471BE325120044E982 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A92646481BE325120044E982 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A926464A1BE325120044E982 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A926464B1BE325120044E982 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A926464E1BE325120044E982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A92646501BE325120044E982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A92646531BE325120044E982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A92646551BE325120044E982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A926465A1BE325120044E982 /* DigitalOcean ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DigitalOcean ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A926465E1BE325120044E982 /* DigitalOcean_ClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalOcean_ClientTests.m; sourceTree = "<group>"; };
+		A92646601BE325120044E982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92646651BE325120044E982 /* DigitalOcean ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DigitalOcean ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92646691BE325120044E982 /* DigitalOcean_ClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalOcean_ClientUITests.m; sourceTree = "<group>"; };
+		A926466B1BE325120044E982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92AB38D1C11C76200583B84 /* AuthenticationWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationWebView.h; sourceTree = "<group>"; };
+		A92AB38E1C11C76200583B84 /* AuthenticationWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationWebView.m; sourceTree = "<group>"; };
+		A96593861C0F64D600895FA1 /* AuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationViewController.h; sourceTree = "<group>"; };
+		A96593871C0F64D600895FA1 /* AuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationViewController.m; sourceTree = "<group>"; };
+		A981A99B1C0C37910006FD27 /* AccountAPIWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountAPIWrapper.h; sourceTree = "<group>"; };
+		A981A99C1C0C37910006FD27 /* AccountAPIWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountAPIWrapper.m; sourceTree = "<group>"; };
+		A981A9A11C0C45300006FD27 /* DebugUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugUtils.h; sourceTree = "<group>"; };
+		A981A9A21C0C45300006FD27 /* DebugUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugUtils.m; sourceTree = "<group>"; };
+		A999924B1BEB42A10049E43C /* DODroplet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DODroplet.h; sourceTree = "<group>"; };
+		A999924C1BEB42A10049E43C /* DODroplet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DODroplet.m; sourceTree = "<group>"; };
+		A99992511BEB4AA40049E43C /* DONetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DONetwork.h; sourceTree = "<group>"; };
+		A99992521BEB4AA40049E43C /* DONetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DONetwork.m; sourceTree = "<group>"; };
+		A99992541BEB4ACB0049E43C /* DORegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DORegion.h; sourceTree = "<group>"; };
+		A99992551BEB4ACB0049E43C /* DORegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DORegion.m; sourceTree = "<group>"; };
+		A99992571BEB8BA30049E43C /* APIInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIInvoker.h; sourceTree = "<group>"; };
+		A99992581BEB8BA30049E43C /* APIInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIInvoker.m; sourceTree = "<group>"; };
+		A9D3EA581C08859100D11389 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		A9FFEF301BF46C910089E58A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A9FFEF311BF46C920089E58A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		A9FFEF331BF4719F0089E58A /* DropletAPIWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropletAPIWrapper.h; sourceTree = "<group>"; };
+		A9FFEF341BF4719F0089E58A /* DropletAPIWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropletAPIWrapper.m; sourceTree = "<group>"; };
+		A9FFEF361BF4730C0089E58A /* DOSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOSnapshot.h; sourceTree = "<group>"; };
+		A9FFEF371BF4730C0089E58A /* DOSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOSnapshot.m; sourceTree = "<group>"; };
+		A9FFEF391BF473180089E58A /* DOBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOBackup.h; sourceTree = "<group>"; };
+		A9FFEF3A1BF473180089E58A /* DOBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOBackup.m; sourceTree = "<group>"; };
+		A9FFEF471BFCB4310089E58A /* DODropletAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DODropletAction.h; sourceTree = "<group>"; };
+		A9FFEF481BFCB4310089E58A /* DODropletAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DODropletAction.m; sourceTree = "<group>"; };
+		A9FFEF491BFCB4310089E58A /* DOImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOImage.h; sourceTree = "<group>"; };
+		A9FFEF4A1BFCB4310089E58A /* DOImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A926463B1BE325120044E982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92646571BE325120044E982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92646621BE325120044E982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92646351BE325120044E982 = {
+			isa = PBXGroup;
+			children = (
+				A92646401BE325120044E982 /* DigitalOcean Client */,
+				A926465D1BE325120044E982 /* DigitalOcean ClientTests */,
+				A92646681BE325120044E982 /* DigitalOcean ClientUITests */,
+				A926463F1BE325120044E982 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A926463F1BE325120044E982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A926463E1BE325120044E982 /* DigitalOcean Client.app */,
+				A926465A1BE325120044E982 /* DigitalOcean ClientTests.xctest */,
+				A92646651BE325120044E982 /* DigitalOcean ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A92646401BE325120044E982 /* DigitalOcean Client */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFEF431BF494F60089E58A /* API Client */,
+				A9FFEF421BF494E40089E58A /* Foundation */,
+				A9FFEF411BF494120089E58A /* Model */,
+				A92646441BE325120044E982 /* AppDelegate.h */,
+				A92646451BE325120044E982 /* AppDelegate.m */,
+				A92646471BE325120044E982 /* MasterViewController.h */,
+				A92646481BE325120044E982 /* MasterViewController.m */,
+				A926464A1BE325120044E982 /* DetailViewController.h */,
+				A926464B1BE325120044E982 /* DetailViewController.m */,
+				A926464D1BE325120044E982 /* Main.storyboard */,
+				A92646501BE325120044E982 /* Assets.xcassets */,
+				A92646521BE325120044E982 /* LaunchScreen.storyboard */,
+				A92646551BE325120044E982 /* Info.plist */,
+				A92646411BE325120044E982 /* Supporting Files */,
+				A9FFEF301BF46C910089E58A /* Constants.h */,
+				A9FFEF311BF46C920089E58A /* Constants.m */,
+				A96593861C0F64D600895FA1 /* AuthenticationViewController.h */,
+				A96593871C0F64D600895FA1 /* AuthenticationViewController.m */,
+				A92AB38D1C11C76200583B84 /* AuthenticationWebView.h */,
+				A92AB38E1C11C76200583B84 /* AuthenticationWebView.m */,
+			);
+			path = "DigitalOcean Client";
+			sourceTree = "<group>";
+		};
+		A92646411BE325120044E982 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A92646421BE325120044E982 /* main.m */,
+				A9D3EA581C08859100D11389 /* Data.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A926465D1BE325120044E982 /* DigitalOcean ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				A926465E1BE325120044E982 /* DigitalOcean_ClientTests.m */,
+				A92646601BE325120044E982 /* Info.plist */,
+			);
+			path = "DigitalOcean ClientTests";
+			sourceTree = "<group>";
+		};
+		A92646681BE325120044E982 /* DigitalOcean ClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A92646691BE325120044E982 /* DigitalOcean_ClientUITests.m */,
+				A926466B1BE325120044E982 /* Info.plist */,
+			);
+			path = "DigitalOcean ClientUITests";
+			sourceTree = "<group>";
+		};
+		A9FFEF411BF494120089E58A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFEF471BFCB4310089E58A /* DODropletAction.h */,
+				A9FFEF481BFCB4310089E58A /* DODropletAction.m */,
+				A9FFEF491BFCB4310089E58A /* DOImage.h */,
+				A9FFEF4A1BFCB4310089E58A /* DOImage.m */,
+				A99992541BEB4ACB0049E43C /* DORegion.h */,
+				A99992551BEB4ACB0049E43C /* DORegion.m */,
+				A99992511BEB4AA40049E43C /* DONetwork.h */,
+				A99992521BEB4AA40049E43C /* DONetwork.m */,
+				A999924B1BEB42A10049E43C /* DODroplet.h */,
+				A999924C1BEB42A10049E43C /* DODroplet.m */,
+				A9FFEF361BF4730C0089E58A /* DOSnapshot.h */,
+				A9FFEF371BF4730C0089E58A /* DOSnapshot.m */,
+				A9FFEF391BF473180089E58A /* DOBackup.h */,
+				A9FFEF3A1BF473180089E58A /* DOBackup.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A9FFEF421BF494E40089E58A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				A99992571BEB8BA30049E43C /* APIInvoker.h */,
+				A99992581BEB8BA30049E43C /* APIInvoker.m */,
+				A981A9A11C0C45300006FD27 /* DebugUtils.h */,
+				A981A9A21C0C45300006FD27 /* DebugUtils.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		A9FFEF431BF494F60089E58A /* API Client */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFEF331BF4719F0089E58A /* DropletAPIWrapper.h */,
+				A9FFEF341BF4719F0089E58A /* DropletAPIWrapper.m */,
+				A981A99B1C0C37910006FD27 /* AccountAPIWrapper.h */,
+				A981A99C1C0C37910006FD27 /* AccountAPIWrapper.m */,
+			);
+			name = "API Client";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A926463D1BE325120044E982 /* DigitalOcean Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A926466E1BE325120044E982 /* Build configuration list for PBXNativeTarget "DigitalOcean Client" */;
+			buildPhases = (
+				A926463A1BE325120044E982 /* Sources */,
+				A926463B1BE325120044E982 /* Frameworks */,
+				A926463C1BE325120044E982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DigitalOcean Client";
+			productName = "DigitalOcean Client";
+			productReference = A926463E1BE325120044E982 /* DigitalOcean Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A92646591BE325120044E982 /* DigitalOcean ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92646711BE325120044E982 /* Build configuration list for PBXNativeTarget "DigitalOcean ClientTests" */;
+			buildPhases = (
+				A92646561BE325120044E982 /* Sources */,
+				A92646571BE325120044E982 /* Frameworks */,
+				A92646581BE325120044E982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A926465C1BE325120044E982 /* PBXTargetDependency */,
+			);
+			name = "DigitalOcean ClientTests";
+			productName = "DigitalOcean ClientTests";
+			productReference = A926465A1BE325120044E982 /* DigitalOcean ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A92646641BE325120044E982 /* DigitalOcean ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92646741BE325120044E982 /* Build configuration list for PBXNativeTarget "DigitalOcean ClientUITests" */;
+			buildPhases = (
+				A92646611BE325120044E982 /* Sources */,
+				A92646621BE325120044E982 /* Frameworks */,
+				A92646631BE325120044E982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92646671BE325120044E982 /* PBXTargetDependency */,
+			);
+			name = "DigitalOcean ClientUITests";
+			productName = "DigitalOcean ClientUITests";
+			productReference = A92646651BE325120044E982 /* DigitalOcean ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92646361BE325120044E982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					A926463D1BE325120044E982 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A92646591BE325120044E982 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A926463D1BE325120044E982;
+					};
+					A92646641BE325120044E982 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A926463D1BE325120044E982;
+					};
+				};
+			};
+			buildConfigurationList = A92646391BE325120044E982 /* Build configuration list for PBXProject "DigitalOcean Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A92646351BE325120044E982;
+			productRefGroup = A926463F1BE325120044E982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A926463D1BE325120044E982 /* DigitalOcean Client */,
+				A92646591BE325120044E982 /* DigitalOcean ClientTests */,
+				A92646641BE325120044E982 /* DigitalOcean ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A926463C1BE325120044E982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92646541BE325120044E982 /* LaunchScreen.storyboard in Resources */,
+				A92646511BE325120044E982 /* Assets.xcassets in Resources */,
+				A9D3EA591C08859100D11389 /* Data.plist in Resources */,
+				A926464F1BE325120044E982 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92646581BE325120044E982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92646631BE325120044E982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A926463A1BE325120044E982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FFEF3B1BF473180089E58A /* DOBackup.m in Sources */,
+				A999924D1BEB42A10049E43C /* DODroplet.m in Sources */,
+				A99992591BEB8BA30049E43C /* APIInvoker.m in Sources */,
+				A981A99D1C0C37910006FD27 /* AccountAPIWrapper.m in Sources */,
+				A99992531BEB4AA40049E43C /* DONetwork.m in Sources */,
+				A92646461BE325120044E982 /* AppDelegate.m in Sources */,
+				A9FFEF351BF4719F0089E58A /* DropletAPIWrapper.m in Sources */,
+				A9FFEF381BF4730C0089E58A /* DOSnapshot.m in Sources */,
+				A9FFEF321BF46C920089E58A /* Constants.m in Sources */,
+				A9FFEF4C1BFCB4310089E58A /* DOImage.m in Sources */,
+				A96593881C0F64D600895FA1 /* AuthenticationViewController.m in Sources */,
+				A92AB38F1C11C76200583B84 /* AuthenticationWebView.m in Sources */,
+				A99992561BEB4ACB0049E43C /* DORegion.m in Sources */,
+				A92646491BE325120044E982 /* MasterViewController.m in Sources */,
+				A92646431BE325120044E982 /* main.m in Sources */,
+				A926464C1BE325120044E982 /* DetailViewController.m in Sources */,
+				A9FFEF4B1BFCB4310089E58A /* DODropletAction.m in Sources */,
+				A981A9A31C0C45300006FD27 /* DebugUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92646561BE325120044E982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A926465F1BE325120044E982 /* DigitalOcean_ClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92646611BE325120044E982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A926466A1BE325120044E982 /* DigitalOcean_ClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A926465C1BE325120044E982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A926463D1BE325120044E982 /* DigitalOcean Client */;
+			targetProxy = A926465B1BE325120044E982 /* PBXContainerItemProxy */;
+		};
+		A92646671BE325120044E982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A926463D1BE325120044E982 /* DigitalOcean Client */;
+			targetProxy = A92646661BE325120044E982 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A926464D1BE325120044E982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A926464E1BE325120044E982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A92646521BE325120044E982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92646531BE325120044E982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A926466C1BE325120044E982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A926466D1BE325120044E982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A926466F1BE325120044E982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DigitalOcean Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.DigitalOcean-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A92646701BE325120044E982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DigitalOcean Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.DigitalOcean-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A92646721BE325120044E982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DigitalOcean ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.DigitalOcean-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalOcean Client.app/DigitalOcean Client";
+			};
+			name = Debug;
+		};
+		A92646731BE325120044E982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DigitalOcean ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.DigitalOcean-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalOcean Client.app/DigitalOcean Client";
+			};
+			name = Release;
+		};
+		A92646751BE325120044E982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DigitalOcean ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.DigitalOcean-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DigitalOcean Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A92646761BE325120044E982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DigitalOcean ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.DigitalOcean-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DigitalOcean Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A92646391BE325120044E982 /* Build configuration list for PBXProject "DigitalOcean Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A926466C1BE325120044E982 /* Debug */,
+				A926466D1BE325120044E982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A926466E1BE325120044E982 /* Build configuration list for PBXNativeTarget "DigitalOcean Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A926466F1BE325120044E982 /* Debug */,
+				A92646701BE325120044E982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92646711BE325120044E982 /* Build configuration list for PBXNativeTarget "DigitalOcean ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92646721BE325120044E982 /* Debug */,
+				A92646731BE325120044E982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92646741BE325120044E982 /* Build configuration list for PBXNativeTarget "DigitalOcean ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92646751BE325120044E982 /* Debug */,
+				A92646761BE325120044E982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92646361BE325120044E982 /* Project object */;
+}
