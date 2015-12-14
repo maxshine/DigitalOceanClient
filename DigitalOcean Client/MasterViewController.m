@@ -81,6 +81,15 @@
     DODroplet* droplet = self.dropletList[indexPath.row];
     cell.textLabel.text = droplet.name;
     cell.detailTextLabel.text = [[NSNumber numberWithLong:droplet.ID] stringValue];
+    NSString* green_path = [[NSBundle mainBundle] pathForResource:@"green" ofType:@"png"];
+    NSString* red_path = [[NSBundle mainBundle] pathForResource:@"red" ofType:@"png"];
+    UIImage* statusImage = nil;
+    if ([droplet.status compare:@"active"] == NSOrderedSame) {
+        statusImage = [UIImage imageWithContentsOfFile:green_path];
+    } else {
+        statusImage = [UIImage imageWithContentsOfFile:red_path];
+    }
+    cell.imageView.image = statusImage;
     return cell;
 }
 

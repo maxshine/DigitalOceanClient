@@ -25,6 +25,9 @@
 		A99992561BEB4ACB0049E43C /* DORegion.m in Sources */ = {isa = PBXBuildFile; fileRef = A99992551BEB4ACB0049E43C /* DORegion.m */; };
 		A99992591BEB8BA30049E43C /* APIInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = A99992581BEB8BA30049E43C /* APIInvoker.m */; };
 		A9D3EA591C08859100D11389 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9D3EA581C08859100D11389 /* Data.plist */; };
+		A9D99FBE1C1F061E00FB903F /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D99FBB1C1F061E00FB903F /* black.png */; };
+		A9D99FBF1C1F061E00FB903F /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D99FBC1C1F061E00FB903F /* green.png */; };
+		A9D99FC01C1F061E00FB903F /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D99FBD1C1F061E00FB903F /* red.png */; };
 		A9FFEF321BF46C920089E58A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FFEF311BF46C920089E58A /* Constants.m */; };
 		A9FFEF351BF4719F0089E58A /* DropletAPIWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FFEF341BF4719F0089E58A /* DropletAPIWrapper.m */; };
 		A9FFEF381BF4730C0089E58A /* DOSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FFEF371BF4730C0089E58A /* DOSnapshot.m */; };
@@ -86,6 +89,9 @@
 		A99992571BEB8BA30049E43C /* APIInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIInvoker.h; sourceTree = "<group>"; };
 		A99992581BEB8BA30049E43C /* APIInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIInvoker.m; sourceTree = "<group>"; };
 		A9D3EA581C08859100D11389 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		A9D99FBB1C1F061E00FB903F /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		A9D99FBC1C1F061E00FB903F /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		A9D99FBD1C1F061E00FB903F /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		A9FFEF301BF46C910089E58A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		A9FFEF311BF46C920089E58A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		A9FFEF331BF4719F0089E58A /* DropletAPIWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropletAPIWrapper.h; sourceTree = "<group>"; };
@@ -175,6 +181,9 @@
 		A92646411BE325120044E982 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9D99FBB1C1F061E00FB903F /* black.png */,
+				A9D99FBC1C1F061E00FB903F /* green.png */,
+				A9D99FBD1C1F061E00FB903F /* red.png */,
 				A92646421BE325120044E982 /* main.m */,
 				A9D3EA581C08859100D11389 /* Data.plist */,
 			);
@@ -348,7 +357,10 @@
 				A92646541BE325120044E982 /* LaunchScreen.storyboard in Resources */,
 				A92646511BE325120044E982 /* Assets.xcassets in Resources */,
 				A9D3EA591C08859100D11389 /* Data.plist in Resources */,
+				A9D99FBF1C1F061E00FB903F /* green.png in Resources */,
+				A9D99FC01C1F061E00FB903F /* red.png in Resources */,
 				A926464F1BE325120044E982 /* Main.storyboard in Resources */,
+				A9D99FBE1C1F061E00FB903F /* black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
