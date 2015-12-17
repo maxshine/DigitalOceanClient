@@ -7,11 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DODroplet.h"
+#import "DOSnapshot.h"
+#import "DOBackup.h"
+#import "DODropletAction.h"
+#import "DOImage.h"
+#import "DONetwork.h"
+#import "DORegion.h"
+#import "APIInvoker.h"
+#import "Constants.h"
+#import "DebugUtils.h"
+#import "DOBackup.h"
 
-@class DODroplet;
-@class DOSnapshot;
-@class DOBackup;
-@class DODropletAction;
+#ifndef DROPLETAPIWRAPPLER_H
+
+#define DROPLETAPIWRAPPLER_H
 
 @interface DropletAPIWrapper : NSObject
 
@@ -39,5 +49,5 @@
 +(DODropletAction*) enableIP6Droplet : (long) DropletId;
 +(DODropletAction*) checkActionStatus : (long) ActionId forDroplet : (long) DropletId;
 
-
 @end
+#endif

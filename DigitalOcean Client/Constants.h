@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#ifndef CONSTANTS_H
+
+#define CONSTANTS_H
+
 @interface Constants : NSObject
 
 +(Constants*) instance;
@@ -29,3 +33,5 @@
 @property (assign, atomic) BOOL isAuthNeed;
 
 @end
+#endif
+

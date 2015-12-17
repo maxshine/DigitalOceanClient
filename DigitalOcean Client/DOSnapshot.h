@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#ifndef DOSNAPSHOT_H
+
+#define DOSNAPSHOT_H
+
 @interface DOSnapshot : NSObject
 
 @property (assign) long ID;
@@ -23,3 +27,5 @@
 -(DOSnapshot*) initWithObject:(NSDictionary*)o;
 
 @end
+
+#endif

@@ -5,8 +5,13 @@
 //  Created by Gao Yang on 11/5/15.
 //  Copyright © 2015 Personal. All rights reserved.
 //
+#ifndef APIINVOKER_H
+
+#define APIINVOKER_H
 
 #import <Foundation/Foundation.h>
+#import "DebugUtils.h"
+#import "Constants.h"
 
 @interface APIInvoker : NSObject
 
@@ -28,3 +33,4 @@
 -(APIInvoker*) init:(NSString*) method withURL:(NSString*)url withHeaders: (NSDictionary*)headers withData:(NSData*)data;
 
 @end
+#endif

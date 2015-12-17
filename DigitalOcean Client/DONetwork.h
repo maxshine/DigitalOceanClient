@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#ifndef DONETWORK_H
+
+#define DONETWORK_H
+
 @interface DONetwork : NSObject
 
 @property (nonatomic, copy) NSString* ip_address;
@@ -19,3 +23,5 @@
 -(DONetwork*) initWithObject:(NSDictionary *)o;
 
 @end
+#endif
+

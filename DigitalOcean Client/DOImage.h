@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#ifndef DOIMAGE_H
+
+#define DOIMAGE_H
+
 @interface DOImage : NSObject
 
 @property (nonatomic, assign) long ID;
@@ -23,3 +27,5 @@
 -(DOImage*) initWithObject:(NSDictionary*) o;
 
 @end
+
+#endif

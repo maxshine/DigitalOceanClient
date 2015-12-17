@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#ifndef DOREGION_H
+
+#define DOREGION_H
+
 @interface DORegion : NSObject
 
 @property (nonatomic, copy) NSString* name;
@@ -20,3 +24,5 @@
 
 
 @end
+
+#endif

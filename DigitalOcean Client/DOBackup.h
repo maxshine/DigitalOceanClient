@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#ifndef DOBACKUP_H
+
+#define DOBACKUP_H
+
 @interface DOBackup : NSObject
 
 @property (assign) long ID;
@@ -23,3 +27,5 @@
 -(DOBackup*) initWithObject:(NSDictionary*)o;
 
 @end
+
+#endif

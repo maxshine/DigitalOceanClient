@@ -23,7 +23,7 @@
     self.netmask = [o valueForKey:@"netmask"];
     self.gateway = [o valueForKey:@"gateway"];
     self.type = [o valueForKey:@"type"];
-    self.family = @"V4";
+    self.family = [o valueForKey:@"family"];
     
     return self;
 }
