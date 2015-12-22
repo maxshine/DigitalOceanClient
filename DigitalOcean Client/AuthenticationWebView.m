@@ -50,7 +50,7 @@
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
     Constants* const_inst = [Constants instance];
-    if ([request.URL.absoluteString compare:@"https://cloud.digitalocean.com/"] == NSOrderedSame)
+    if ([request.URL.absoluteString compare:@"https://cloud.digitalocean.com/droplets"] == NSOrderedSame)
     {
         Constants* const_inst = [Constants instance];
         NSString* str = [[[NSString alloc] initWithFormat:@"https://cloud.digitalocean.com/v1/oauth/authorize?client_id=%@&scope=read write&redirect_uri=%@&response_type=code", const_inst.client_id, const_inst.callback_url] stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];

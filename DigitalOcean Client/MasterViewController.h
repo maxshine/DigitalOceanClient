@@ -15,6 +15,7 @@
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 @property (strong, atomic)  NSArray<DODroplet*>* dropletList;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 

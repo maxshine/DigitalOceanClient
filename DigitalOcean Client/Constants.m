@@ -45,7 +45,7 @@ static Constants* instance = nil;
 {
     self = [super init];
     if (instance) {
-        self.https_url_prefix = @"http://api.digitalocean.com";
+        self.http_url_prefix = @"http://api.digitalocean.com";
         self.https_url_prefix = @"https://api.digitalocean.com";
         self.digitalocean_login_url = @"https://cloud.digitalocean.com/login";
         self.callback_url = @"https://myladder.techisfunny.info:8443/OauthHandlers/DigitalOceanHandler";

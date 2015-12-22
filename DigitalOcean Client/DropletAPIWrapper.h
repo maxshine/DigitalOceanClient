@@ -22,7 +22,12 @@
 #ifndef DROPLETAPIWRAPPLER_H
 
 #define DROPLETAPIWRAPPLER_H
-
+enum DropletActionStatus
+{
+    ERRORED = -1,
+    INPROGRESS = 0,
+    COMPLETED = 1
+};
 @interface DropletAPIWrapper : NSObject
 
 +(NSArray<DODroplet*>*) listAllDroplets;
@@ -47,7 +52,7 @@
 +(DODropletAction*) renameDroplet : (long) DropletId withName: (NSString*)name;
 +(DODropletAction*) snapshotDroplet : (long) DropletId withName:(NSString*)name;
 +(DODropletAction*) enableIP6Droplet : (long) DropletId;
-+(DODropletAction*) checkActionStatus : (long) ActionId forDroplet : (long) DropletId;
++(enum DropletActionStatus) checkActionStatus : (long) ActionId forDroplet : (long) DropletId;
 
 @end
 #endif

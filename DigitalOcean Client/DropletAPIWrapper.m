@@ -168,7 +168,7 @@
 +(DODropletAction*) enableDropletBackup : (long) DropletId
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"enable_backups" forKey:@"type"];
     if ([NSJSONSerialization isValidJSONObject:post_body])
     {
@@ -193,7 +193,7 @@
 +(DODropletAction*) disableDropletBackup:(long)DropletId
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"disable_backups" forKey:@"type"];
     if ([NSJSONSerialization isValidJSONObject:post_body])
     {
@@ -218,7 +218,7 @@
 +(DODropletAction*) rebootDroplet:(long)DropletId
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"reboot" forKey:@"type"];
     if ([NSJSONSerialization isValidJSONObject:post_body])
     {
@@ -243,7 +243,7 @@
 +(DODropletAction*) powercycleDroplet:(long)DropletId
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"power_cycle" forKey:@"type"];
     if ([NSJSONSerialization isValidJSONObject:post_body])
     {
@@ -268,7 +268,7 @@
 +(DODropletAction*) shutdownDroplet:(long)DropletId
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"shutdown" forKey:@"type"];
     if ([NSJSONSerialization isValidJSONObject:post_body])
     {
@@ -293,7 +293,7 @@
 +(DODropletAction*) poweroffDroplet:(long)DropletId
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"power_off" forKey:@"type"];
     if ([NSJSONSerialization isValidJSONObject:post_body])
     {
@@ -318,7 +318,7 @@
 +(DODropletAction*) poweronDroplet:(long)DropletId
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"power_on" forKey:@"type"];
     if ([NSJSONSerialization isValidJSONObject:post_body])
     {
@@ -343,7 +343,7 @@
 +(DODropletAction*) enableIP6Droplet:(long)DropletId
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"enable_ipv6" forKey:@"type"];
     if ([NSJSONSerialization isValidJSONObject:post_body])
     {
@@ -368,7 +368,7 @@
 +(DODropletAction*) passwordResetDroplet:(long)DropletId
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"password_reset" forKey:@"type"];
     if ([NSJSONSerialization isValidJSONObject:post_body])
     {
@@ -393,7 +393,7 @@
 +(DODropletAction*) snapshotDroplet:(long)DropletId withName:(NSString *)name
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"password_reset" forKey:@"type"];
     [post_body setValue:name forKey:@"name"];
     
@@ -420,7 +420,7 @@
 +(DODropletAction*) renameDroplet:(long)DropletId withName:(NSString *)name
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"rename" forKey:@"type"];
     [post_body setValue:name forKey:@"name"];
     
@@ -447,7 +447,7 @@
 +(DODropletAction*) rebuildDroplet:(long)DropletId withImageName:(NSString *)name
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"rebuild" forKey:@"type"];
     [post_body setValue:name forKey:@"name"];
     
@@ -474,7 +474,7 @@
 +(DODropletAction*) restoreDroplet:(long)DropletId withBackupID:(long)backupID
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"restore" forKey:@"type"];
     [post_body setValue:[[NSNumber alloc] initWithLong:backupID] forKey:@"image"];
     
@@ -501,7 +501,7 @@
 +(DODropletAction*) resizeDroplet:(long)DropletId withSize:(NSString *)size
 {
     [DebugUtils method_entry:__FILE__ :__func__];
-    NSDictionary* post_body = [[NSDictionary alloc] init];
+    NSMutableDictionary* post_body = [[NSMutableDictionary alloc] init];
     [post_body setValue:@"resize" forKey:@"type"];
     [post_body setValue:size forKey:@"size"];
     [post_body setValue:[[NSNumber alloc] initWithBool:true] forKey:@"disk"];
@@ -526,7 +526,7 @@
     return nil;
 }
 
-+(DODropletAction*) checkActionStatus:(long)ActionId forDroplet:(long)DropletId
++(enum DropletActionStatus) checkActionStatus:(long)ActionId forDroplet:(long)DropletId
 {
     [DebugUtils method_entry:__FILE__ :__func__];
     
@@ -540,10 +540,14 @@
 
     NSDictionary* result = [[invoker.response valueForKey:@"json body"] valueForKey:@"action"];
     DODropletAction* droplet = [[DODropletAction alloc] initWithObject:result];
-    return droplet;
-
     [DebugUtils method_exit:__FILE__ :__func__];
-    return nil;
+    if ([droplet.status compare:@"completed"] == NSOrderedSame) {
+        return COMPLETED;
+    } else if ([droplet.status compare:@"in-progress"] == NSOrderedSame) {
+        return INPROGRESS;
+    } else {
+        return ERRORED;
+    }
 }
 
 @end
